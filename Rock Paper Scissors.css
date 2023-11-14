@@ -1,0 +1,123 @@
+* {
+  font-family: "Roboto";
+  color: black;
+}
+
+body {
+  background-color: #f6baec;
+}
+
+.main {
+  margin-top: 40px;
+}
+
+.scoreboard {
+  margin-bottom: 15px;
+}
+
+.score-message {
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 0px;
+  background-color: ivory;
+}
+
+.title {
+  font-family: "Press Start 2P", cursive;
+  font-size: 32px;
+  color: rgb(224, 97, 201);
+  text-align: center;
+  justify-content: center;
+}
+
+.score-info {
+  text-align: center;
+  font-size: 28px;
+}
+
+.playerSign {
+  text-align: center;
+  font-size: 30px;
+}
+
+.sign {
+  font-size: 50px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  gap: 30px;
+}
+
+.btn {
+  border-radius: 10px;
+  background-color: ivory;
+}
+
+.btn-square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+}
+
+.scores-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 400px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.score-box {
+  width: 150px;
+  text-align: center;
+}
+
+.score {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.btn-restart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  width: 75px;
+}
+
+.model {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  flex-direction: column;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+}
